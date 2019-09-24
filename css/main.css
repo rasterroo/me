@@ -302,10 +302,10 @@ ul li {
 
 .banner {
 	background-color: #65349c;
-	min-height: 600px;
+	min-height: 550px;
 }
 .banner-text {
-	padding-top: 20%;
+	padding-top: 15%;
 }
 .banner-text h1 {
 	color: #fff;
@@ -320,7 +320,7 @@ ul li {
 	letter-spacing: 3px;
 	line-height: 24px;
 	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 }
 /* ------------------------------------------------------------------------------
 	Description Text
