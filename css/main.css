@@ -19,7 +19,7 @@ p {
 	color: #6c7279;
 }
 h1 {
-	font-size: 65px;
+	font-size: 60px;
 	color: #2d3033;
 }
 h2 {
@@ -91,7 +91,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 20px 0;
 }
 .no-padding {
 	padding: 0;
@@ -102,7 +102,7 @@ ul li {
 }
 .space
 {
-	margin-top:60px;	
+	margin-top:50px;	
 }
 /* ------------------------------------------------------------------------------
 	Header
@@ -302,15 +302,15 @@ ul li {
 
 .banner {
 	background-color: #65349c;
-	min-height: 550px;
+	min-height: 700px;
 }
 .banner-text {
-	padding-top: 15%;
+	padding-top: 20%;
 }
 .banner-text h1 {
 	color: #fff;
 	font-family: "Roboto Slab", sans-serif;
-	font-size: 70px;
+	font-size: 80px;
 	font-weight: 700;
 }
 .banner-text p {
@@ -320,18 +320,49 @@ ul li {
 	letter-spacing: 3px;
 	line-height: 24px;
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
+
 /* ------------------------------------------------------------------------------
-	Description Text
+	Footer
 -------------------------------------------------------------------------------*/
 
-.descripton p {
-	color: #3d3d3d;
-	font-size: 18px;
-	line-height: 33px;
-	font-weight: 400;
+.footer {
+	text-align: center;
 }
+.footer p {
+	font-family: "Roboto", sans-serif;
+	font-size: 11px;
+	color: #7f7f7f;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.footer a {
+	color: #7f7f7f;
+}
+.footer a:hover {
+	color: #e84545;
+}
+.footer .footer-share {
+	margin-top: 10;
+}
+.footer .footer-share li {
+	background: #3d3d3d none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #ffffff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	padding: 8px 0;
+	margin: 0 5px;
+	display: inline-block;
+	float: none;
+}
+.footer .footer-share a {
+	color: #fff;
+}
+
+
 /* ------------------------------------------------------------------------------
 	Works
 -------------------------------------------------------------------------------*/
@@ -391,10 +422,10 @@ ul li {
     transform: translate3d(0, 200%, 0); }
 
 .work-box:hover img {
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2); }
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); }
 .work-box:hover .overlay {
   opacity: 1; }
   .work-box:hover .overlay h5, .work-box:hover .overlay p {
@@ -453,7 +484,7 @@ ul li {
 }
 .innerbanner-text {
 	padding-top: 20%;
-	padding-bottom: 5%;
+	
 }
 
 .innerbanner-text p {
@@ -464,8 +495,11 @@ ul li {
 	letter-spacing: 3px;
 	line-height: 24px;
 	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
 }
+
+
+
 
 
 
