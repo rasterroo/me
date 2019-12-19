@@ -504,8 +504,8 @@ ul li {
 }
 
 div.polaroid {
-	margin-left: 25%;
-	width: 50%;
+	margin-left: 20%;
+	width: 60%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 0px;
@@ -513,7 +513,7 @@ div.polaroid {
   
 div.container {
 	text-align: center;
-	padding: 0px 55px;
+	
 }
 
 
