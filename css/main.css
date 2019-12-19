@@ -44,7 +44,7 @@ h5 {
 }
 .btn {
 	background-color: #3bc492;
-	color: #fff;
+	color: #000;
 	font-size: 13px;
 	font-weight: 600;
 	letter-spacing: 5px;
@@ -57,7 +57,7 @@ h5 {
 }
 .btn:hover, .btn:focus {
 	background-color: #3d3d3d;
-	color: #fff;
+	color: #000;
 }
 .btn-large {
 	padding: 15px 40px;
@@ -73,7 +73,7 @@ i {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #ffcc5c;
+	color: #65349c;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -134,10 +134,10 @@ ul li {
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 0;
+	padding: 20px 0;
 }
 #header.fixed .nav-toggle {
-	top: 18px;
+	top: 20px;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -154,7 +154,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: rgba(255, 255, 255, 0.75);
+	color: rgba(0, 0, 0, 0.75);
 	font-size: 13px;
 	font-weight: 400;
 	margin-left: 40px;
@@ -162,7 +162,7 @@ ul li {
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #fff;
+	color: #000;
 }
 .nav-toggle {
 	display: none;
@@ -305,20 +305,21 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .banner {
-	background-image: linear-gradient(to right, purple , SteelBlue ); 
-	min-height: 650px;
+	/*background-image: linear-gradient(to right, purple , SteelBlue );*/
+	/*min-height: 650px;*/
 }
 .banner-text {
 	padding-top: 12%;
 }
 .banner-text h1 {
-	color: #fff;
+	color: #000;
 	font-family: "Roboto Slab", sans-serif;
 	font-size: 80px;
 	font-weight: 700;
 }
 .banner-text p {
-	color: #fff;
+	color: #000;
+	text-align: left;
 	font-size: 19px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -489,11 +490,11 @@ ul li {
 }
 .innerbanner-text {
 	padding-top: 20%;
-	
+	color: #000
 }
 
 .innerbanner-text p {
-	color: #fff;
+	color: #000;
 	font-family: "Roboto Slab", sans-serif;
 	font-size: 36px;
 	font-weight: 400;
