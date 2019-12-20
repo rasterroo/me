@@ -338,7 +338,7 @@ ul li {
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 	color: #7f7f7f;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -504,11 +504,11 @@ ul li {
 }
 
 div.polaroid {
-	width: 65%;
+	width: 75%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 	margin-top: 20px;
-	margin-left: 18%;
+	margin-left: 15%;
 }
 
 div.polaroid p {
