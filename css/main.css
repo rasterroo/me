@@ -19,11 +19,11 @@ p {
 	color: #6c7279;
 }
 h1 {
-	font-size: 60px;
+	font-size: 50px;
 	color: #2d3033;
 }
 h2 {
-	font-size: 40px;
+	font-size: 50px;
 	color: #2d3033;
 }
 h3 {
@@ -504,7 +504,7 @@ ul li {
 }
 
 div.polaroid {
-	width: 75%;
+	width: 70%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 	margin-top: 20px;
