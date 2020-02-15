@@ -15,7 +15,6 @@
 
 p {
 	font-size: 16px;
-	line-height: 22.4px;
 	color: #6c7279;
 }
 h1 {
@@ -320,7 +319,7 @@ ul li {
 .banner-text p {
 	color: #000;
 	text-align: left;
-	font-size: 19px;
+	font-size: 26px;
 	font-weight: 400;
 	letter-spacing: 3px;
 	line-height: 24px;
@@ -350,18 +349,18 @@ ul li {
 	color: #e84545;
 }
 .footer .footer-share {
-	margin-top: 10;
+	margin-top: 1;
 }
 .footer .footer-share li {
 	background: #3d3d3d none repeat scroll 0 0;
-	border-radius: 50%;
+	border-radius: 30%;
 	color: #ffffff;
 	width: 35px;
 	height: 35px;
 	padding: 7px 0px;
 	margin: 0 5px;
 	display: inline-block;
-	float: none;
+	float: center;
 }
 .footer .footer-share a {
 	color: #fff;
@@ -504,10 +503,10 @@ ul li {
 }
 
 div.polaroid {
-	width: 70%;
+	width: 30%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 15%;
 }
 
@@ -516,7 +515,7 @@ div.polaroid p {
 }
   
 div.container {
-	text-align: center;
+	text-align: left;
 
 }
 
