@@ -1,3 +1,1 @@
-# raster
-
-## Personal Website
+# A personal website
