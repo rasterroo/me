@@ -492,20 +492,19 @@ ul li {
 
 div.polaroid {
 	background-color: #FAF9F6;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
 	margin: auto;
   	width: 50%;
-	adding: 10px;
+	padding: 10px;
 }
 
 div.polaroid p {
-	font-size: 16px;
+	font-size: 12px;
 	color: black;
 }
   
 div.container {
 	text-align: center;
-
 }
 
 * {
