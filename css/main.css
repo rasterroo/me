@@ -491,11 +491,11 @@ ul li {
 }
 
 div.polaroid {
-	width: 35%;
 	background-color: #FAF9F6;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-/* 	margin-top: 30%;
-	margin-left: 15%; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29); 
+	margin: auto;
+  	width: 50%;
+	adding: 10px;
 }
 
 div.polaroid p {
