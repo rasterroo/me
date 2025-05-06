@@ -471,7 +471,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .innerbanner {
-	background-color: white;
+	background-color: #65349c;
 	min-height: 100%;
 }
 .innerbanner-text {
@@ -491,10 +491,10 @@ ul li {
 }
 
 div.polaroid {
-	width: 30%;
+	width: 70%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-left: 15%;
 }
 
