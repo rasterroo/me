@@ -491,7 +491,7 @@ ul li {
 }
 
 div.polaroid {
-	width: 70%;
+	width: 40%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 	margin-top: 20px;
@@ -500,6 +500,7 @@ div.polaroid {
 
 div.polaroid p {
 	font-size: 16px;
+	color: black;
 }
   
 div.container {
