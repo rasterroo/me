@@ -493,8 +493,11 @@ ul li {
 div.polaroid {
 	background-color: #FAF9F6;
 	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(250, 249, 246, 0.45); 
-	margin: auto;
-  	width: 45%;
+	margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+  	width: 200px;
 	padding: 6px;
 }
 
