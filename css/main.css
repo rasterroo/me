@@ -4,6 +4,31 @@
 background: rgb(244,221,231);
 background: linear-gradient(90deg, rgba(244,221,231,1) 0%, rgba(228,233,148,1) 73%);
 
+/* place in your stylesheet or <style> */
+html, body { height: 100%; margin: 0; }
+body {
+    display: flex;
+	background-color: #171717;
+    color: white;
+    flex-direction: column; /* or row */
+    justify-content: center; /* vertical */
+    align-items: center;     /* horizontal */
+    text-align: center;      /* center inline text inside children */
+    min-height: 100vh;
+}
+
+/* body {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #171717;
+  color: white;
+  line-height: 1.6;
+  position: relative;
+  font-family: sans-serif;
+  overflow: hidden;
+} */
+
 p {
 	font-size: 8px;
 	color: #F0F0F0;
@@ -72,11 +97,7 @@ a:hover, a:focus {
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
-body {
-	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	color: #6c7279;
-}
+
 ul, ol {
 	margin: 0;
 	padding: 0;
@@ -506,22 +527,6 @@ div.polaroid p {
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
-}
-
-html, body {
-  height: 100%;
-}
-
-body {
-  display: table;
-  width: 100%;
-  height: 100%;
-  background-color: #171717;
-  color: white;
-  line-height: 1.6;
-  position: relative;
-  font-family: sans-serif;
-  overflow: hidden;
 }
 
 .lines {
