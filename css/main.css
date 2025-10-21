@@ -492,17 +492,16 @@ ul li {
 
 div.polaroid {
 	background-color: #FAF9F6;
-	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.80), 0 2px 8px 0 rgba(250, 249, 246, 0.80); 
 	margin-top: 5%;
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-  	width: 220px;
-	padding: 6px;
+  	width: 170px;
+	padding: 5px;
 }
 
 div.polaroid p {
-	font-size: 12px;
+	font-size: 14px;
 	color: black;
 }
   
@@ -599,5 +598,6 @@ body {
     top: 110%;
   }
 }
+
 
 
