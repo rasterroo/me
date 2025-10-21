@@ -10,15 +10,15 @@ p {
 }
 h1 {
 	font-size: 50px;
-	color: white;
+	color: #D3D3D3;
 }
 h2 {
 	font-size: 42px;
-	color: white;
+	color: #D3D3D3;
 }
 h3 {
 	font-size: 28px;
-	color: #2d3033;
+	color: #D3D3D3;
 	font-weight: 300;
 }
 h4 {
@@ -486,8 +486,6 @@ ul li {
 	font-weight: 400;
 	letter-spacing: 3px;
 	line-height: 16px;
-	margin-top: 8px;
-	margin-bottom: 8px;
 }
 
 div.polaroid {
@@ -503,10 +501,6 @@ div.polaroid {
 div.polaroid p {
 	font-size: 14px;
 	color: black;
-}
-  
-div.container {
-	text-align: center;
 }
 
 * {
