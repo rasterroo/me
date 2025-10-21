@@ -2,16 +2,18 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto%20Slab:300,400,500,600,700);
 
 /* place in your stylesheet or <style> */
-html, body { height: 100%; margin: 0; }
+html, body { height: 100%; margin: 0; overflow: hidden; }
 body {
     display: flex;
-	background-color: #171717;
+    background-color: #171717;
     color: white;
     flex-direction: column; /* or row */
     justify-content: center; /* vertical */
     align-items: center;     /* horizontal */
     text-align: center;      /* center inline text inside children */
-    min-height: 100vh;
+    /* changed from min-height to fixed viewport height */
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* body {
@@ -531,7 +533,7 @@ div.polaroid p {
   top: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 100vh;
   margin: auto;
   width: 90vw;
 }
